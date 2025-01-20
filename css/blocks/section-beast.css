@@ -1,0 +1,29 @@
+.section-beast {
+  height: 750px;
+
+  background-image: image-set(
+    url("../../img/beast/beast-bg.jpg") 1x,
+    url("../../img/beast/beast-bg@2x.jpg") 2x
+  );
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+
+  --angel: 10%;
+  clip-path: polygon(
+    0% var(--angel),
+    100% 0%,
+    100% calc(100% - var(--angel)),
+    0% 100%
+  );
+}
+
+.section-beast-title {
+}
+
+.section-beast-desc {
+}
+
+.section-beast-btn-wrapper {
+}
