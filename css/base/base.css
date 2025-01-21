@@ -12,13 +12,6 @@ body {
   font-weight: 300;
 }
 
-/* .title-1 {
-  font-family: var(--font-accent);
-  font-weight: 700;
-  color: var(--accent);
-  font-size: 96px;
-} */
-
 .container {
   margin: 0 auto;
   padding: 0 15px;
@@ -29,4 +22,8 @@ body {
 
 a {
   color: #fafaf5;
+}
+
+.container-contact {
+  max-width: 615px;
 }
